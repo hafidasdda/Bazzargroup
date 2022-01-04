@@ -1,0 +1,379 @@
+@import url("https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;700;800;900&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  font-family: "Tajawal", sans-serif;
+  direction: rtl;
+  overflow-x: hidden;
+}
+html {
+  scroll-behavior: smooth;
+}
+button {
+  background: #82b541;
+  font-weight: bold;
+  padding: 7px;
+  color: white;
+  font-size: 17px;
+  width: 200px;
+  border: none;
+  outline: none;
+  transition: 400ms ease-in-out;
+}
+#priceup {
+  color: #82b541;
+  font-weight: bold;
+}
+.main_home_hero {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.L1 {
+  color: #17a589;
+}
+.L2 {
+  color: #ec7063;
+}
+.main_home_hero h1 {
+  font-weight: bold;
+  font-size: 36px;
+}
+.main_home_hero_child {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.main_home_hero_child_2 {
+  width: 80%;
+  text-align: center;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 26px;
+  font-weight: bold;
+}
+.main_home_hero_child h1 {
+  text-align: center;
+  font-family: "Tajawal", sans-serif;
+  color: white;
+}
+.main_home_hero_child p {
+  font-weight: 600;
+  font-size: 30px;
+}
+.stars::before {
+  content: url("../Images/star.png");
+  position: absolute;
+  right: 0%;
+}
+button {
+  font-family: "Tajawal", sans-serif;
+  background: #82b541;
+  font-weight: bold;
+  padding: 7px;
+  color: white;
+  transition: 400ms ease-out;
+}
+button:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.exeption {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #f4f4f4;
+  color: #000;
+  padding-bottom: 20px;
+  margin-top: 20px;
+}
+.exeption h1 {
+  font-weight: 700;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+.exeption h2 {
+  font-family: "Tajawal", sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+}
+.exeption p {
+  text-align: center;
+  font-weight: bold;
+}
+.exeption span {
+  color: yellow;
+}
+.exeption img {
+  object-fit: cover;
+  border-radius: 100%;
+}
+.exception_child {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px 0 20px 0;
+}
+.each_excep {
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  color: #000;
+  padding: 7px 0 7px 0;
+  margin-bottom: 20px;
+}
+.each_excep img {
+  object-fit: cover;
+}
+.each_excep h4 {
+  margin: 0;
+}
+.exeption button:hover {
+  font-weight: bold;
+}
+
+.forum {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #f4f4f4;
+  color: #000;
+  padding: 40px 0 40px 0;
+}
+.forum_child {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.forum h1 {
+  font-weight: bold;
+}
+#price {
+  font-weight: 600;
+  font-size: 15px;
+  direction: rtl;
+  color: #ec7063;
+}
+.forum form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 500px;
+  background: #fff;
+  box-shadow: 0 1px 20px 0 #000;
+  border-radius: 20px;
+}
+.forum form div {
+  margin-bottom: 20px;
+}
+.forum form input {
+  border: none;
+  background: #d5d3d3;
+  color: 000;
+  padding: 7px;
+  width: 300px;
+  outline: none;
+  font-family: "Tajawal", sans-serif;
+}
+.ze {
+  width: 100%;
+  background: #82b541;
+  margin: 0;
+  padding: 20px 0 20px 0;
+}
+.forum form input::placeholder {
+  color: #000;
+  font-weight: bold;
+}
+.forum p {
+  text-align: center;
+  color: #fff;
+  margin: 0;
+  font-weight: bold;
+  font-size: 25px;
+}
+@keyframes DoubleProduct {
+  from {
+    transform: scale(0.9);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+.forum h1 {
+  text-align: center;
+}
+form button {
+  width: 300px !important;
+  color: white;
+}
+form button:hover {
+  transform: scale(1);
+}
+form {
+  margin-top: 10px;
+  text-align: center;
+}
+.why {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 100px;
+}
+.why h1 {
+  font-weight: bold;
+  font-size: 36px;
+}
+.why_child {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.why_child img {
+  object-fit: cover;
+}
+.why_content h2 {
+  font-weight: bold;
+  font-size: 33px;
+}
+.why p {
+  font-weight: 700;
+}
+.whyTwo {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.whyTwo_child {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.whyTwo_content {
+  margin-right: 3em;
+}
+.whyTwo_content img {
+  object-fit: cover;
+}
+.said {
+  width: 100%;
+  padding: 20px 0 20px 0;
+  background: #f4f4f4;
+  text-align: center;
+}
+.our_clt {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.next {
+  width: 80%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+}
+.next p {
+  font-weight: 700;
+}
+.each_clt img {
+  object-fit: cover;
+  border-radius: 100%;
+}
+@media only screen and (max-width: 700px) {
+  .main_home_hero {
+    text-align: center;
+    padding: 20px 0 20px 0;
+  }
+  .main_home_hero_child {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .exeption {
+    padding: 40px 0 40px 0;
+    text-align: center;
+  }
+  .why,
+  .whyTwo {
+    text-align: center;
+  }
+  .exception_child {
+    width: 100%;
+    flex-direction: column;
+    padding: 40px 0 40px 0;
+  }
+  .why_child,
+  .whyTwo_child {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .whyTwo_child img {
+    align-items: center;
+    width: 90%;
+    height: 90%;
+    text-align: center;
+  }
+  .why a {
+    padding-top: 0px;
+    margin-top: 0px;
+  }
+  .whyTwo_content {
+    margin: 0 0 3em 0;
+  }
+  .our_clt {
+    height: 100%;
+    padding: 40px 0 40px 0;
+  }
+  .next,
+  .forum_child {
+    flex-direction: column;
+    width: 100%;
+  }
+  .forum form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 350px;
+    background: #fff;
+    box-shadow: 0 5px 10px 0 rgb(0, 0, 0);
+    border-radius: 20px;
+  }
+  .main_home_hero img {
+    width: 100%;
+    object-fit: cover;
+  }
+}
